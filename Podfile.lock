@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.8.0)
+  - HPOpenWeather (1.1.0):
+    - Alamofire
+    - SwiftyJSON
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - HPOpenWeather
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - HPOpenWeather
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  HPOpenWeather: 4ade41fbd89020996bec6fb54e8ec9f668932423
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 250135c7564d72cef980a907450a6933ff7a4d9d
+
+COCOAPODS: 1.5.3

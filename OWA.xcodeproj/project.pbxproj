@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321B491E21F8FFC800B62C45 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321B491D21F8FFC800B62C45 /* CellView.swift */; };
 		3252DCC721F246260063E6E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252DCC621F246260063E6E2 /* AppDelegate.swift */; };
 		3252DCC921F246260063E6E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252DCC821F246260063E6E2 /* ViewController.swift */; };
 		3252DCCC21F246260063E6E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3252DCCA21F246260063E6E2 /* Main.storyboard */; };
-		3252DCCE21F246270063E6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3252DCCD21F246270063E6E2 /* Assets.xcassets */; };
 		3252DCD121F246270063E6E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3252DCCF21F246270063E6E2 /* LaunchScreen.storyboard */; };
+		32F80C5422065530008CB3FA /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F80C5322065530008CB3FA /* ChangeCityViewController.swift */; };
+		32F80C5622066958008CB3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32F80C5522066958008CB3FA /* Assets.xcassets */; };
+		EE8590BA4A7C310790215668 /* Pods_OWA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A1CF125CF84AF36A51B6EB1 /* Pods_OWA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		321B491D21F8FFC800B62C45 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		3252DCC321F246260063E6E2 /* OWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3252DCC621F246260063E6E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3252DCC821F246260063E6E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3252DCCB21F246260063E6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3252DCCD21F246270063E6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3252DCD021F246270063E6E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3252DCD221F246270063E6E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F80C5322065530008CB3FA /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChangeCityViewController.swift; path = OWA/Controller/ChangeCityViewController.swift; sourceTree = SOURCE_ROOT; };
+		32F80C5522066958008CB3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41897640B04DB717995C969F /* Pods-OWA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OWA/Pods-OWA.debug.xcconfig"; sourceTree = "<group>"; };
+		8A1CF125CF84AF36A51B6EB1 /* Pods_OWA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8285275B695ECA7B06C04CF /* Pods-OWA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWA.release.xcconfig"; path = "Pods/Target Support Files/Pods-OWA/Pods-OWA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8590BA4A7C310790215668 /* Pods_OWA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				3252DCC521F246260063E6E2 /* OWA */,
 				3252DCC421F246260063E6E2 /* Products */,
+				54F0B5B263F8910112FEEB8B /* Pods */,
+				930E7E66C08A28AC1EBA0D5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,65 @@
 		3252DCC521F246260063E6E2 /* OWA */ = {
 			isa = PBXGroup;
 			children = (
-				3252DCC621F246260063E6E2 /* AppDelegate.swift */,
-				3252DCC821F246260063E6E2 /* ViewController.swift */,
-				3252DCCA21F246260063E6E2 /* Main.storyboard */,
-				3252DCCD21F246270063E6E2 /* Assets.xcassets */,
-				3252DCCF21F246270063E6E2 /* LaunchScreen.storyboard */,
+				32F65F4C22007D8500137416 /* SupportingFiles */,
+				32F65F4B22007D5500137416 /* Model */,
+				32F65F4A22007D4A00137416 /* View */,
+				32F65F4922007D3D00137416 /* Controller */,
 				3252DCD221F246270063E6E2 /* Info.plist */,
 			);
 			path = OWA;
+			sourceTree = "<group>";
+		};
+		32F65F4922007D3D00137416 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3252DCC821F246260063E6E2 /* ViewController.swift */,
+				32F80C5322065530008CB3FA /* ChangeCityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		32F65F4A22007D4A00137416 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3252DCCA21F246260063E6E2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32F65F4B22007D5500137416 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				321B491D21F8FFC800B62C45 /* CellView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32F65F4C22007D8500137416 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3252DCC621F246260063E6E2 /* AppDelegate.swift */,
+				3252DCCF21F246270063E6E2 /* LaunchScreen.storyboard */,
+				32F80C5522066958008CB3FA /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		54F0B5B263F8910112FEEB8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41897640B04DB717995C969F /* Pods-OWA.debug.xcconfig */,
+				E8285275B695ECA7B06C04CF /* Pods-OWA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		930E7E66C08A28AC1EBA0D5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A1CF125CF84AF36A51B6EB1 /* Pods_OWA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3252DCD521F246270063E6E2 /* Build configuration list for PBXNativeTarget "OWA" */;
 			buildPhases = (
+				FD7DE22E8E650226C59E8327 /* [CP] Check Pods Manifest.lock */,
 				3252DCBF21F246260063E6E2 /* Sources */,
 				3252DCC021F246260063E6E2 /* Frameworks */,
 				3252DCC121F246260063E6E2 /* Resources */,
+				DF1EA7324B960C3A12E2760F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +187,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				3252DCD121F246270063E6E2 /* LaunchScreen.storyboard in Resources */,
-				3252DCCE21F246270063E6E2 /* Assets.xcassets in Resources */,
+				32F80C5622066958008CB3FA /* Assets.xcassets in Resources */,
 				3252DCCC21F246260063E6E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DF1EA7324B960C3A12E2760F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OWA/Pods-OWA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HPOpenWeather/HPOpenWeather.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HPOpenWeather.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OWA/Pods-OWA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD7DE22E8E650226C59E8327 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OWA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3252DCBF21F246260063E6E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321B491E21F8FFC800B62C45 /* CellView.swift in Sources */,
 				3252DCC921F246260063E6E2 /* ViewController.swift in Sources */,
 				3252DCC721F246260063E6E2 /* AppDelegate.swift in Sources */,
+				32F80C5422065530008CB3FA /* ChangeCityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +397,13 @@
 		};
 		3252DCD621F246270063E6E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41897640B04DB717995C969F /* Pods-OWA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92U6WRP67K;
 				INFOPLIST_FILE = OWA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +417,13 @@
 		};
 		3252DCD721F246270063E6E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8285275B695ECA7B06C04CF /* Pods-OWA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92U6WRP67K;
 				INFOPLIST_FILE = OWA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
