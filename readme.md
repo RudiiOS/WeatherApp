@@ -1,7 +1,6 @@
-#  Quizzler
+#  Weather App
 
-A trivia quiz app, inspired by the awesome "Quiz Up"game
-
+ A weather application, created using the OpenWeather API.
 
 ## Screenshots
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/Quizzler.gif)
+![Finished App](https://github.com/RudiiOS/WeatherApp/OWA.gif)
