@@ -60,9 +60,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDa
             }else if weather.condition == "Rain"{
                 self.weatherCondition.image  = UIImage(named: "Rainy")
             }
-            if self.cityName == "New+York"{
+            if self.cityName.uppercased() == "NEW+YORK"{
                 self.cityImage.image = UIImage(named: "NY")
-            }else if self.cityName == "San+Francisco" {
+            }else if self.cityName.uppercased() == "SAN+FRANCISCO" {
                 self.cityImage.image = UIImage(named: "SF")
             }
         }
